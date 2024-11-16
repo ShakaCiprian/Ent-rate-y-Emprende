@@ -1,0 +1,18 @@
+.barra_de_opciones{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.Opciones{
+    background: #bdbdbd;
+    padding: 5px;
+    border-radius: 5px;
+    height: 20px;
+}
