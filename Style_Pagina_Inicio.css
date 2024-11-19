@@ -1,18 +1,43 @@
-.barra_de_opciones{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
+body{
+    background: #fee9b1;
+}
+header{
+    text-align: center;
     align-items: center;
-    background-color: #f0f0f0;
-    padding: 20px;
-    height: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    border-radius: 5px;
 }
 
-.Opciones{
-    background: #bdbdbd;
-    padding: 5px;
-    border-radius: 5px;
-    height: 20px;
+.barra_de_opciones {
+    display: flex; /* Para distribuir los elementos horizontalmente */
+    justify-content: center; /* Espacio uniforme entre los enlaces */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #a2a1a269;
+    padding: 20px;
+    border: 2px solid #ccc; /* Corrige el borde */
+    border-radius: 70px;
+}
+
+.opciones a { /* Aplica estilos directamente a los enlaces */
+    color: rgb(153, 14, 14); /* Color del texto de los enlaces */
+    font-size: 22px;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    padding: 10px; /* Agrega espacio alrededor de los enlaces */
+}
+
+
+.Titulo_impulsando_emprendimiento{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.Imagen-portada{
+    height: 200px;
+
+}
+
+footer{
+    text-align: center;
+    align-items: center;
 }
