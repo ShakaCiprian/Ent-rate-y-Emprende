@@ -42,5 +42,15 @@
     <footer>
         <p>&copy; 2024 Esteráte y emprende. Todos los derechos reservados.</p>
     </footer>
+     <script>
+        let index = 0;
+
+        function moveSlide(direction) {
+            const slides = document.querySelectorAll(".carousel-images img");
+            index = (index + direction + slides.length) % slides.length;
+            document.querySelector(".carousel-images").style.transform = "translateX(" + (-index * 100) + "%)";
+        }
+    </script>
+    
 </body>
 </html>
